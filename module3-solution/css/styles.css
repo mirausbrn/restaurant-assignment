@@ -1,0 +1,94 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #white;
+  font-family: 'Oxygen', sans-serif; 
+}
+
+
+#header-nav {
+ background-color: #696969;
+ border-radius: 0;
+ border: 0;
+}
+
+.navbar-brand {
+  padding-bottom: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #080C0C;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+/*# nav list and toggle button styling*/
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color:#080C0C ;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #dark-grey;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+/*# main test styles, including titles */
+span {
+
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+ 
+}
+
+a {
+
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+ 
+
+ section{
+  background-color: grey;
+  padding: 5px ;
+  margin: 5px;
+  text-align: center;
+ }
+
+ p{
+
+  text-align: left;
+ }
+ 
+ strong{
+ font-size: 25px;
+  
+ }
